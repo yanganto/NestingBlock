@@ -1,0 +1,62 @@
+##########################################
+# The protocol file is for NestingBlock.py
+# All parameter is CASE SENSITIVE !!!
+
+# Peptide sequence form n terminus to c terminus
+#
+# EX:
+# sequence = "KAAAAKAAAAKAAAAKGGY"
+sequence = "KAAEAKAAAAKAAAAKGGY"
+
+# Epsilon value, in diple mode will concern it
+# vacuum: 	1 	(by definition)
+# water:	80	(at 20 Celsius degrees)
+#
+# EX:
+# epsilon = 2.0
+epsilon = 2.0
+
+# The file path of wnc file, which contain all 
+# wnc value.
+# If some time the v value is residue depend, 
+# the v value also define in this file
+#
+# EX:
+# wncfilename = "./wnc"
+wncfilename = "./wnc"
+
+# Nesting Block modification
+# Define the position of the pair and define
+# the the variables.
+# Position count start from ZERO !!!
+# The variables can be any mount any character,
+# CASE SENSITIVE !!!
+# Need expermental Fraction helix (Fhelix_exp)
+# to derive the equation
+#
+# EX:
+Fhelix_exp = 0.505
+pair.creat(0,3,'x')
+pair.creat(15,18,'y')
+
+# Amid Bone Offset
+# State helixity is number of helix residue divid
+# by the maxima state helixity.
+# Maxima state helixity is Amid bond number add
+# amid bond offset.
+# In RPC lab, we think the first and the last amid
+# cant be helix, thus the amid bond offset is -2
+#
+# EX:
+# amidOffSet = -2
+amidOffSet = -2
+
+# Calculate mode
+# A string present the model use in calculation
+# c, concern cap issue, which calculate with n and c value(modified Lifson-Roig)
+# d, concern dipole issue
+#
+# EX:
+# mod="cd"
+mod="cd"
+
