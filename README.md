@@ -39,4 +39,5 @@ Calculating the fraction helix of peptie, and overwrite the w value of Ala to 1.
  
 List the equation of equilibrium constant with special force in the block within helix state,
 and overwrite the the mode to basic lifson roig (without concering dipole and cap issue)
-$ python3 NestingBlock.py -p mod=\"\" test-NestingBlock
+
+	$ python3 NestingBlock.py -p mod=\"\" test-NestingBlock
