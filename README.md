@@ -36,11 +36,11 @@ It also can list the equation of equilibrium constant with special force in the 
  | Example |
   =========
 
-Calculating the fraction helix of peptie, and overwrite the w value of Ala to 1.2
+Calculating the fraction helix of peptie, and override the w value of Ala to 1.2
  
 	$ python3 NestingBlock.py -c A.w=1.2 test-LifsonRoig
  
 List the equation of equilibrium constant with special force in the block within helix state,
-and overwrite the the mode to basic lifson roig (without concering dipole and cap issue)
+and change the mode to basic lifson roig (without concering dipole and cap issue)
 
 	$ python3 NestingBlock.py -p mod=\"\" test-NestingBlock
