@@ -14,20 +14,23 @@ It also can list the equation of equilibrium constant with special force in the 
  | SNOPSIS |
   =========
 
- $ python3 NestingBlock.py -p <protocol modified> -c <change wnc value> -[v] <protocol_file>
+ $ python3 NestingBlock.py [-p protocol modified] [-c change wnc value] [-v] protocol_file
 
   ==================
  | FUNCTION LETTERS |
   ==================
 
--p <protocol modified>, --protocol=<protocol modified>
+-p protocol modified, --protocol=protocol modified
 
 	The <protocol modified> is an python command written in the protocol file. 
 	Use this option can over write the the setting already in the protocol file.
 
--c <change wnc value>, --chwnc=<change wnc value>
+-c change wnc value, --chwnc=change wnc value
 
 	<change wnc value> is format like this A.w=1.44, which means change the w value of Ala to 1.44
+
+-v 
+	verbose.
 
   =========
  | Example |
